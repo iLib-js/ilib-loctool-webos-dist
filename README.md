@@ -9,13 +9,13 @@ This repository exists to tag flat full distributions of js loctool, self-contai
 [loctool](https://github.com/iLib-js/loctool) : A localization tool that scans source code looking for localizable strings and writes out translated resource files
 ### plugins
 Plugins are optimized for the webOS platform.
-[ilib-loctool-webos-c](https://github.com/iLib-js/ilib-loctool-webos-c): C file handler.
-[ilib-loctool-webos-cpp](https://github.com/iLib-js/ilib-loctool-webos-cpp): Cpp file handler
-[ilib-loctool-webos-qml](https://github.com/iLib-js/ilib-loctool-webos-qml): QML file handler
-[ilib-loctool-webos-javascript](https://github.com/iLib-js/ilib-loctool-webos-javascript): Javascript file handler
-[ilib-loctool-webos-appinfo-json](https://github.com/iLib-js/ilib-loctool-webos-appinfo-json):`appinfo.json` file handler
-[ilib-loctool-webos-json-resource](https://github.com/iLib-js/ilib-loctool-webos-json-resource): JSON resource file handler
-[ilib-loctool-webos-ts-resource](https://github.com/iLib-js/ilib-loctool-webos-ts-resource): TS resource file handler
+* [ilib-loctool-webos-c](https://github.com/iLib-js/ilib-loctool-webos-c): C file handler.
+* [ilib-loctool-webos-cpp](https://github.com/iLib-js/ilib-loctool-webos-cpp): Cpp file handler
+* [ilib-loctool-webos-qml](https://github.com/iLib-js/ilib-loctool-webos-qml): QML file handler
+* [ilib-loctool-webos-javascript](https://github.com/iLib-js/ilib-loctool-webos-javascript): Javascript file handler
+* [ilib-loctool-webos-appinfo-json](https://github.com/iLib-js/ilib-loctool-webos-appinfo-json):`appinfo.json` file handler
+* [ilib-loctool-webos-json-resource](https://github.com/iLib-js/ilib-loctool-webos-json-resource): JSON resource file handler
+* [ilib-loctool-webos-ts-resource](https://github.com/iLib-js/ilib-loctool-webos-ts-resource): TS resource file handler
 
 
 # Copyright and License Information
