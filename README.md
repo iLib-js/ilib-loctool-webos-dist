@@ -2,7 +2,7 @@
 A full-featured build environment for webOS localization.
 Not for general usage. Developers should use other plugins that start with the name  `ilib-loctool-webos-*`
 
-This repository exists to tag flat full distributions of js loctool, self-containing NodeJS binaries, and NPM. It is intended to be updated periodically from other plugins, so no development should occur here. This is a temporary repository, serving to supply js loctool into the webOS build tools and is not intended for general use.
+This repository exists to tag flat full distributions of js loctool, It is intended to be updated periodically from other plugins, so no development should occur here. This is a repository, serving to supply js loctool into the webOS build tools and is not intended for general use.
 
 ## Development
 ### loctool
