@@ -1,6 +1,6 @@
 {
     "name": "ilib-loctool-webos-dist",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Full-featured build environment for webOS localization",
     "main": "index.js",
     "repository": {
@@ -29,6 +29,6 @@
         "ilib-loctool-webos-json-resource": "^1.2.0",
         "ilib-loctool-webos-qml": "^1.1.0",
         "ilib-loctool-webos-ts-resource": "^1.2.0",
-        "loctool": "^2.7.1"
+        "loctool": "2.7.1"
     }
 }
