@@ -17,6 +17,8 @@ Plugins are optimized for the webOS platform.
 * [ilib-loctool-webos-json-resource](https://github.com/iLib-js/ilib-loctool-webos-json-resource): JSON resource file handler
 * [ilib-loctool-webos-ts-resource](https://github.com/iLib-js/ilib-loctool-webos-ts-resource): TS resource file handler
 
+## Documentation
+* webOS Open Source Edition: [Localization Guide](https://www.webosose.org/docs/guides/development/localization/localization-guide/)
 
 # Copyright and License Information
 Unless otherwise specified, all ilib-loctool-webos-* source code files and documentation files in this repository are:
