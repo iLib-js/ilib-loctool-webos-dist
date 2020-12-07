@@ -10,7 +10,7 @@
     "author": {
         "name": "Goun Lee",
         "email": "goun.lee@lge.com"
-  },
+    },
     "license": "Apache-2.0",
     "bugs": {
         "url": "https://github.com/iLib-js/ilib-loctool-webos-dist/issues"
