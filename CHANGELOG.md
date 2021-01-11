@@ -1,3 +1,10 @@
+## 1.2.1
+* Updated fixed plugins version
+~~~
+	"ilib-loctool-webos-appinfo-json": "1.2.4",
+	"ilib-loctool-webos-json-resource": "1.3.3",
+~~~
+
 ## 1.2.0
 * Updated fixed loctool and plugins version
 ~~~
