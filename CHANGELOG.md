@@ -3,6 +3,7 @@
 ~~~
 	"ilib-loctool-webos-appinfo-json": "1.2.4",
 	"ilib-loctool-webos-json-resource": "1.3.3",
+	"ilib-loctool-webos-ts-resource": "1.2.2"
 ~~~
 
 ## 1.2.0
