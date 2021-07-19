@@ -1,3 +1,16 @@
+## 1.5.0
+* Updated fixed loctool and plugins version
+~~~
+    "ilib-loctool-webos-appinfo-json": "1.2.9",
+    "ilib-loctool-webos-c": "1.1.4",
+    "ilib-loctool-webos-cpp": "1.1.4",
+    "ilib-loctool-webos-javascript": "1.4.4",
+    "ilib-loctool-webos-json-resource": "1.3.8",
+    "ilib-loctool-webos-qml": "1.3.3",
+    "ilib-loctool-webos-ts-resource": "1.2.7",
+    "loctool": "2.14.1"
+~~~
+
 ## 1.4.0
 * Updated fixed loctool and plugins version
 ~~~
