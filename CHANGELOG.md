@@ -1,4 +1,26 @@
 ## 1.6.0
+* Updated fixed loctool and plugins version 
+* Used the logger provided by the loctool instead of using log4js directly.
+* Fixes in plugin
+  * (webos-javascript) Fixed an issue where the $L(key,value) usage could not be parsed properly.
+  * (webos-json-resource) Fixed not to generate empty directory if content is empty even locale is in target list.
+  * (webos-appinfo-json) Fixed to set baseLocale correctly when calculating resource path.
+  * (webos-qml) Added js to the list of file extensions that this plugin handles.
+  * (webos-qml) Fixed an issue not to filter newline character for window.
+
+~~~
+    "ilib-loctool-webos-appinfo-json": "1.2.10",
+    "ilib-loctool-webos-c": "1.1.5",
+    "ilib-loctool-webos-cpp": "1.1.5",
+    "ilib-loctool-webos-javascript": "1.4.5",
+    "ilib-loctool-webos-json-resource": "1.3.9",
+    "ilib-loctool-webos-qml": "1.3.4",
+    "ilib-loctool-webos-ts-resource": "1.2.8",
+    "loctool": "2.16.2"
+~~~
+
+
+## 1.6.0
 * Updated fixed loctool and plugins version
 ~~~
     "ilib-loctool-webos-appinfo-json": "1.2.10",
