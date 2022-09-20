@@ -1,3 +1,22 @@
+## 1.8.0
+* Updated fixed loctool and plugins version
+* Fixes in plugins
+  * (webos-appinfo-json) Fixed not to generate duplicated resource by comparing language default locale translation.
+  * (webos-c/webos-cpp) Fixed an issue where strings are not extracted due to incorrect deletion of commented lines.
+  * (webos-javascript/webos-c/webos-cpp) Updated to check language default locale translation not to generate duplicate resources.
+  * (webos-javascript) Updated to make source and key policy clear to avoid confusion.
+  * (webos-json-resource) Removed source and target comparison code when generating resources.
+~~~
+    "ilib-loctool-webos-appinfo-json": "1.2.12",
+    "ilib-loctool-webos-c": "1.1.7",
+    "ilib-loctool-webos-cpp": "1.1.7",
+    "ilib-loctool-webos-javascript": "1.4.7",
+    "ilib-loctool-webos-json-resource": "1.3.11",
+    "ilib-loctool-webos-qml": "1.3.6",
+    "ilib-loctool-webos-ts-resource": "1.2.10",
+    "loctool": "2.17.0"
+~~~
+
 ## 1.7.0
 * Updated fixed loctool and plugins version 
 * Used the logger provided by the loctool instead of using log4js directly.
