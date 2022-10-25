@@ -19,7 +19,6 @@
 
 ## 1.8.0
 * Updated fixed loctool and plugins version
-  * Added the utility function to check whether the current locale matches the language default locale.
 * Fixes in plugins
   * (webos-appinfo-json) Fixed not to generate duplicated resource by comparing language default locale translation.
   * (webos-c/webos-cpp) Fixed an issue where strings are not extracted due to incorrect deletion of commented lines.
