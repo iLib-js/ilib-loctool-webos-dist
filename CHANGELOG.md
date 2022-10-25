@@ -3,8 +3,8 @@
 * Added the utility function to override language default locale.
 * Added new getTranslations() method on the Project calss to get all of the translations.
 * Fixes in plugins
-  * (webos-c/webos-cpp) Updated to support loctool's generate mode.
   * (webos-javascript/webos-c/webos-cpp/webos-ts-resource/webos-appinfo-json) Added ability to override language default locale.
+  * (webos-c/webos-cpp) Updated to support loctool's generate mode.
   * (webos-javascript) Updated generate mode to use loctool's new public method.
 ~~~
     "ilib-loctool-webos-appinfo-json": "1.3.0",
