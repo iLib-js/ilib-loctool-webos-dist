@@ -1,7 +1,7 @@
 ## 1.10.0
 * Updated fixed loctool and plugins version
 * loctool
-  * Added the --localeInherit flag which could define custom locale inheritance.
+  * Added a --localeInherit flag which could define custom locale inheritance.
   * Added a new getRepository() method on the Project class to get the local repository.
   * Added a new getTranslationSet() method on the LocalRepository class to get all of the translations.
 * Fixes in plugins
