@@ -1,7 +1,29 @@
+## 1.10.0
+* Updated fixed loctool and plugins version
+* loctool
+  * Added the --localeInherit flag which could define custom locale inheritance.
+  * Added a new getRepository() method on the Project class to get the local repository.
+  * Added a new getTranslationSet() method on the LocalRepository class to get all of the translations.
+* Fixes in plugins
+  * Added ability to define custom locale inheritance.
+  * Added ability to use common locale data.
+  * (webos-javascript)Fixed an issue where multi-space could not be properly parsed in key-value use cases.
+~~~
+    "ilib-loctool-webos-appinfo-json": "1.4.0",
+    "ilib-loctool-webos-c": "1.3.0",
+    "ilib-loctool-webos-cpp": "1.3.0",
+    "ilib-loctool-webos-javascript": "1.6.0",
+    "ilib-loctool-webos-json-resource": "1.4.1",
+    "ilib-loctool-webos-qml": "1.4.0",
+    "ilib-loctool-webos-ts-resource": "1.3.1",
+    "loctool": "2.20.0"
+~~~
+
 ## 1.9.0
 * Updated fixed loctool and plugins version
-* Added the utility function to override language default locale.
-* Added new getTranslations() method on the Project calss to get all of the translations.
+* loctool
+  * Added the utility function to override language default locale.
+  * Added new getTranslations() method on the Project calss to get all of the translations.
 * Fixes in plugins
   * (webos-javascript/webos-c/webos-cpp/webos-ts-resource/webos-appinfo-json) Added ability to override language default locale.
   * (webos-c/webos-cpp) Updated to support loctool's generate mode.
