@@ -8,6 +8,7 @@
   * Added ability to define custom locale inheritance.
   * Added ability to use common locale data.
   * (webos-javascript)Fixed an issue where multi-space could not be properly parsed in key-value use cases.
+
 ~~~
     "ilib-loctool-webos-appinfo-json": "1.4.0",
     "ilib-loctool-webos-c": "1.3.0",
