@@ -1,3 +1,25 @@
+## 1.11.0
+* Updated fixed plugins version
+  * (webos-javascript/webos-c/webos-cpp) Updated to custom locale inheritance feature work properly in generate mode.
+  * (webos-javascript/webos-c/webos-cpp) Added guard code to prevent errors when the common data path is incorrect.
+  * (webos-javascript/webos-c/webos-cpp) Updated to generate resources by comparing base translation data even in generate mode.
+  * (webos-javascript/webos-c/webos-cpp) Fixed an issue where localeinherit related data was not created properly according to the order of locales.
+  * (webos-javascript/webos-c/webos-cpp) Fixed an issue where data is duplicated when it is the same as base translation in generate mode.
+  * (webos-qml) Added guard code to prevent errors when the common data path is incorrect.
+  * (webos-qml) Fixed an issue where localeInherit related data was not created properly.
+  * (webos-ts-resource) Replaced dependent xml2json package to xml-js
+  * (webos-apinfo-json) Added guard code to prevent errors when the common data path is incorrect.
+~~~
+    "ilib-loctool-webos-appinfo-json": "1.4.1",
+    "ilib-loctool-webos-c": "1.4.0",
+    "ilib-loctool-webos-cpp": "1.4.0",
+    "ilib-loctool-webos-javascript": "1.7.0",
+    "ilib-loctool-webos-json-resource": "1.4.1",
+    "ilib-loctool-webos-qml": "1.4.1",
+    "ilib-loctool-webos-ts-resource": "1.4.0",
+    "loctool": "2.20.0"
+~~~
+
 ## 1.10.0
 * Updated fixed loctool and plugins version
 * loctool
