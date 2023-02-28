@@ -3,7 +3,7 @@
   * (webos-javascript/webos-c/webos-cpp/webos-qml) Fixed an issue where common's locale inheritance data values were not checked.
   * (webos-javascript/webos-c/webos-cpp) Updated to check common data's as well when getting base translation.
   * (webos-javascript) Updated to match translation's reskey and resource's reskey when they are different.
-  * (webos-apinfo-json) Fixed not generating duplicated resources by comparing language default locale translation even if the locale follows the locale inheritance rule.
+  * (webos-appinfo-json) Fixed not generating duplicated resources by comparing language default locale translation even if the locale follows the locale inheritance rule.
 
 ~~~
     "ilib-loctool-webos-appinfo-json": "1.5.0",
@@ -26,7 +26,7 @@
   * (webos-qml) Added guard code to prevent errors when the common data path is incorrect.
   * (webos-qml) Fixed an issue where localeInherit related data was not created properly.
   * (webos-ts-resource) Replaced dependent xml2json package to xml-js
-  * (webos-apinfo-json) Added guard code to prevent errors when the common data path is incorrect.
+  * (webos-appinfo-json) Added guard code to prevent errors when the common data path is incorrect.
 ~~~
     "ilib-loctool-webos-appinfo-json": "1.4.1",
     "ilib-loctool-webos-c": "1.4.0",
@@ -47,7 +47,7 @@
 * Fixes in plugins
   * Added ability to define custom locale inheritance.
   * Added ability to use common locale data.
-  * (webos-javascript)Fixed an issue where multi-space could not be properly parsed in key-value use cases.
+  * (webos-javascript) Fixed an issue where multi-space could not be properly parsed in key-value use cases.
 
 ~~~
     "ilib-loctool-webos-appinfo-json": "1.4.0",
