@@ -1,5 +1,5 @@
 ## 1.12.0
-* Updated fixed plugins version
+* Updated fixed loctool and plugins version
   * (webos-javascript/webos-c/webos-cpp/webos-qml) Fixed an issue where common's locale inheritance data values were not checked.
   * (webos-javascript/webos-c/webos-cpp) Updated to check common data's as well when getting base translation.
   * (webos-javascript) Updated to match translation's reskey and resource's reskey when they are different.
