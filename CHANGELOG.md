@@ -1,3 +1,21 @@
+## 1.12.0
+* Updated fixed loctool and plugins version
+  * (webos-javascript/webos-c/webos-cpp/webos-qml) Fixed an issue where common's locale inheritance data values were not checked.
+  * (webos-javascript/webos-c/webos-cpp) Updated to check common data as well when getting a base translation.
+  * (webos-javascript) Updated to match translation's reskey and resource's reskey when they are different.
+  * (webos-appinfo-json) Fixed not generating duplicated resources by comparing language default locale translation even if the locale follows the locale inheritance rule.
+
+~~~
+    "ilib-loctool-webos-appinfo-json": "1.5.0",
+    "ilib-loctool-webos-c": "1.5.0",
+    "ilib-loctool-webos-cpp": "1.5.0",
+    "ilib-loctool-webos-javascript": "1.8.0",
+    "ilib-loctool-webos-json-resource": "1.4.2",
+    "ilib-loctool-webos-qml": "1.5.0",
+    "ilib-loctool-webos-ts-resource": "1.4.1",
+    "loctool": "2.20.2"
+~~~
+
 ## 1.11.0
 * Updated fixed plugins version
   * (webos-javascript/webos-c/webos-cpp) Updated to custom locale inheritance feature work properly in generate mode.
@@ -8,7 +26,7 @@
   * (webos-qml) Added guard code to prevent errors when the common data path is incorrect.
   * (webos-qml) Fixed an issue where localeInherit related data was not created properly.
   * (webos-ts-resource) Replaced dependent xml2json package to xml-js
-  * (webos-apinfo-json) Added guard code to prevent errors when the common data path is incorrect.
+  * (webos-appinfo-json) Added guard code to prevent errors when the common data path is incorrect.
 ~~~
     "ilib-loctool-webos-appinfo-json": "1.4.1",
     "ilib-loctool-webos-c": "1.4.0",
@@ -29,7 +47,7 @@
 * Fixes in plugins
   * Added ability to define custom locale inheritance.
   * Added ability to use common locale data.
-  * (webos-javascript)Fixed an issue where multi-space could not be properly parsed in key-value use cases.
+  * (webos-javascript) Fixed an issue where multi-space could not be properly parsed in key-value use cases.
 
 ~~~
     "ilib-loctool-webos-appinfo-json": "1.4.0",
