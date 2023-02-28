@@ -1,3 +1,21 @@
+## 1.12.0
+* Updated fixed plugins version
+  * (webos-javascript/webos-c/webos-cpp/webos-qml) Fixed an issue where common's locale inheritance data values were not checked.
+  * (webos-javascript/webos-c/webos-cpp) Updated to check common data's as well when getting base translation.
+  * (webos-javascript) Updated to match translation's reskey and resource's reskey when they are different.
+  * (webos-apinfo-json) Fixed not generating duplicated resources by comparing language default locale translation even if the locale follows the locale inheritance rule.
+
+~~~
+    "ilib-loctool-webos-appinfo-json": "1.5.0",
+    "ilib-loctool-webos-c": "1.5.0",
+    "ilib-loctool-webos-cpp": "1.5.0",
+    "ilib-loctool-webos-javascript": "1.8.0",
+    "ilib-loctool-webos-json-resource": "1.4.2",
+    "ilib-loctool-webos-qml": "1.5.0",
+    "ilib-loctool-webos-ts-resource": "1.4.1",
+    "loctool": "2.20.2"
+~~~
+
 ## 1.11.0
 * Updated fixed plugins version
   * (webos-javascript/webos-c/webos-cpp) Updated to custom locale inheritance feature work properly in generate mode.
