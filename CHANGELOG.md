@@ -1,3 +1,20 @@
+## 1.13.0
+* Updated plugins version
+  * (webos-json-resource/webos-appinfo-json) Added a timestamp in `ilibmanifest.json` file to support wee localization.
+  * (webos-json-resource/webos-appinfo-json) Updated to skip writing `ilibmanifest json` creation logic if it has already been done in another plugin.
+  * (webos-json-resource/webos-appinfo-json) Set to have more spaces in `ilibmanifest.json` file.
+  * (webos-qml) Fixed issues where didn't handle single quotes and multi-line properly.
+~~~
+    "ilib-loctool-webos-appinfo-json": "1.6.0",
+    "ilib-loctool-webos-c": "1.5.1",
+    "ilib-loctool-webos-cpp": "1.5.1",
+    "ilib-loctool-webos-javascript": "1.8.1",
+    "ilib-loctool-webos-json-resource": "1.5.0",
+    "ilib-loctool-webos-qml": "1.5.1",
+    "ilib-loctool-webos-ts-resource": "1.4.1",
+    "loctool": "2.20.2"
+~~~
+
 ## 1.12.0
 * Updated fixed loctool and plugins version
   * (webos-javascript/webos-c/webos-cpp/webos-qml) Fixed an issue where common's locale inheritance data values were not checked.
