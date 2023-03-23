@@ -1,6 +1,6 @@
 ## 1.13.0
 * Updated plugins version
-  * (webos-json-resource/webos-appinfo-json) Added to timestampe in `ilibmanifest.json` file to support wee localization.
+  * (webos-json-resource/webos-appinfo-json) Added a timestamp in `ilibmanifest.json` file to support wee localization.
   * (webos-json-resource/webos-appinfo-json) Updated to skip writing `ilibmanifest json` creation logic if it has already been done in another plugin.
   * (webos-json-resource/webos-appinfo-json) Set to have more spaces in `ilibmanifest.json` file.
   * (webos-qml) Fixed issues where didn't handle single quotes and multi-line properly.
