@@ -1,3 +1,8 @@
+## 1.13.1
+* Updated plugins version
+* (webos-json-resource/webos-appinfo-json) Fixed to generate `ilibmanifest.json` file correctly even when a dummy file exists.
+
+
 ## 1.13.0
 * Updated plugins version
   * (webos-json-resource/webos-appinfo-json) Added a timestamp in `ilibmanifest.json` file to support wee localization.
