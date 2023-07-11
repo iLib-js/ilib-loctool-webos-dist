@@ -1,3 +1,37 @@
+## 1.14.0
+* Updated fixed loctool and plugins version
+* note) The last release of `ilib-loctool-webos-appinfo-json` plugin. `ilib-loctool-webos-json` plugin is going to cover `appinfo.json` file localization features as well.
+* loctool
+  * added new `resourceDir` parameter support to util's `formatPath()` which is for modifying the resource root path.
+* Fixes in plugins
+  * webos-javascript/webos-qml/webos-c/webos-cpp/webos-appinfo-json
+    * Updated not to load common data repeatedly if it's loaded from another plugin in a project.
+  * webos-c/webos-cpp
+    * Fixed an issue where didn't handle single quotes properly.
+    * Supported pseudo localization.
+  * webos-ts-resource
+    *  Fixed not to have file extension in name element with js file.
+  * webos-appinfo-json
+    * Added feature not to do localization if the file is already located in the localization directory.
+    * Added the mappings configuration of the mapping which is a mapping between a file and an object that gives info used to localize the files that match it.
+  * webos-json
+    *  Implement for webOS json file (appinfo.json and qcardinfo.json) of localization.
+      * Most of the code is the same as the ilib-loctool-webos-appinfo-json plugin.
+    This plugin, however, expands upon the other plugin to support many different types of json files as used in webOS.
+      * The plugin contains a built-in version of the schema file for the appinfo.json file type.
+      * For other json file types such as qcardinfo.json, the plugin looks for the schema file in the same directory as the json file.
+~~~
+    "ilib-loctool-webos-appinfo-json": "1.7.0",
+    "ilib-loctool-webos-c": "1.6.0",
+    "ilib-loctool-webos-cpp": "1.6.0",
+    "ilib-loctool-webos-javascript": "1.9.0",
+    "ilib-loctool-webos-json": "^1.0.0",
+    "ilib-loctool-webos-json-resource": "1.5.2",
+    "ilib-loctool-webos-qml": "1.6.0",
+    "ilib-loctool-webos-ts-resource": "1.4.2",
+    "loctool": "2.21.0"
+~~~
+
 ## 1.13.1
 * Updated plugins version
 * (webos-json-resource/webos-appinfo-json) Fixed to generate `ilibmanifest.json` file correctly even when a dummy file exists.
