@@ -1,6 +1,6 @@
 ## 1.14.0
 * Updated fixed loctool and plugins version
-* note. The last release of `ilib-loctool-webos-appinfo-json` plugin. `ilib-loctool-webos-json` plugin is going to cover `appinfo.json` file localization features as well.
+* note) The last release of `ilib-loctool-webos-appinfo-json` plugin. `ilib-loctool-webos-json` plugin is going to cover `appinfo.json` file localization features as well.
 * loctool
   * added new `resourceDir` parameter support to util's `formatPath()` which is for modifying the resource root path.
 * Fixes in plugins
@@ -20,7 +20,17 @@
     This plugin, however, expands upon the other plugin to support many different types of json files as used in webOS.
       * The plugin contains a built-in version of the schema file for the appinfo.json file type.
       * For other json file types such as qcardinfo.json, the plugin looks for the schema file in the same directory as the json file.
-
+~~~
+    "ilib-loctool-webos-appinfo-json": "1.7.0",
+    "ilib-loctool-webos-c": "1.6.0",
+    "ilib-loctool-webos-cpp": "1.6.0",
+    "ilib-loctool-webos-javascript": "1.9.0",
+    "ilib-loctool-webos-json": "^1.0.0",
+    "ilib-loctool-webos-json-resource": "1.5.2",
+    "ilib-loctool-webos-qml": "1.6.0",
+    "ilib-loctool-webos-ts-resource": "1.4.2",
+    "loctool": "2.21.0"
+~~~
 
 ## 1.13.1
 * Updated plugins version
