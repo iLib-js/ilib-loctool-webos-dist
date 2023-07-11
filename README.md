@@ -15,7 +15,6 @@ Plugins are optimized for the webOS platform.
 * [ilib-loctool-webos-javascript](https://github.com/iLib-js/ilib-loctool-webos-javascript): Javascript file handler
 * [ilib-loctool-webos-json](https://github.com/iLib-js/ilib-loctool-webos-appinfo-json): JSON file handler
 * [ilib-loctool-webos-appinfo-json](https://github.com/iLib-js/ilib-loctool-webos-appinfo-json): `appinfo.json` file handler (It will be deprecated.)
-
 * [ilib-loctool-webos-json-resource](https://github.com/iLib-js/ilib-loctool-webos-json-resource): JSON resource file handler
 * [ilib-loctool-webos-ts-resource](https://github.com/iLib-js/ilib-loctool-webos-ts-resource): TS resource file handler
 
