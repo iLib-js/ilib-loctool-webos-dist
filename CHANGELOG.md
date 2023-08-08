@@ -1,9 +1,35 @@
+## 1.15.0
+* Updated fixed loctool and plugins version
+* **loctool**
+  * added new debug-font pseudoLocale style. It transform the source strings into strings of characters that require a different font. This allows you to test out whether or not the font works in your UI without having a real translation.
+* **Fixes in plugins**
+  * webos-javascript/webos-qml/webos-c/webos-cpp/webos-json
+    *  Added ability to disable pseudo-localization in plugin when a project's pseudo-localization is enabled.
+  * webos-cpp
+    * Updated to support more file extsnsions.
+  * webos-qml
+    * Update to use first argument of qsTranslate() as a context value instead of file name.
+  * webos-ts-resource
+    * Update to set context name value properly which is not always a file name.
+  * webos-json
+    * Support the pseudo localization.
+~~~
+    "ilib-loctool-webos-c": "1.7.0",
+    "ilib-loctool-webos-cpp": "1.7.0",
+    "ilib-loctool-webos-javascript": "1.10.0",
+    "ilib-loctool-webos-json": "^1.1.0",
+    "ilib-loctool-webos-json-resource": "1.5.3",
+    "ilib-loctool-webos-qml": "1.7.0",
+    "ilib-loctool-webos-ts-resource": "1.5.0",
+    "loctool": "2.22.0"
+~~~
+
 ## 1.14.0
 * Updated fixed loctool and plugins version
 * note) The last release of `ilib-loctool-webos-appinfo-json` plugin. `ilib-loctool-webos-json` plugin is going to cover `appinfo.json` file localization features as well.
-* loctool
+* **loctool**
   * added new `resourceDir` parameter support to util's `formatPath()` which is for modifying the resource root path.
-* Fixes in plugins
+* **Fixes in plugins**
   * webos-javascript/webos-qml/webos-c/webos-cpp/webos-appinfo-json
     * Updated not to load common data repeatedly if it's loaded from another plugin in a project.
   * webos-c/webos-cpp
