@@ -13,6 +13,16 @@
     * Update to set context name value properly which is not always a file name.
   * webos-json
     * Support the pseudo localization.
+~~~
+    "ilib-loctool-webos-c": "1.7.0",
+    "ilib-loctool-webos-cpp": "1.7.0",
+    "ilib-loctool-webos-javascript": "1.10.0",
+    "ilib-loctool-webos-json": "^1.1.0",
+    "ilib-loctool-webos-json-resource": "1.5.3",
+    "ilib-loctool-webos-qml": "1.7.0",
+    "ilib-loctool-webos-ts-resource": "1.5.0",
+    "loctool": "2.22.0"
+~~~
 
 ## 1.14.0
 * Updated fixed loctool and plugins version
