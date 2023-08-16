@@ -1,3 +1,19 @@
+## 1.15.1
+* Updated fixed loctool and plugins version
+* **Fixes in plugins**
+  * webos-json
+    * Update to skip the pseudo localization process when the `--nopseudo` option is true. If not, it occurs an error when the pseudo locale is not defined on the project.
+~~~
+  "ilib-loctool-webos-c": "1.7.0",
+  "ilib-loctool-webos-cpp": "1.7.0",
+  "ilib-loctool-webos-javascript": "1.10.0",
+  "ilib-loctool-webos-json": "1.1.1",
+  "ilib-loctool-webos-json-resource": "1.5.3",
+  "ilib-loctool-webos-qml": "1.7.0",
+  "ilib-loctool-webos-ts-resource": "1.5.0",
+  "loctool": "2.22.0"
+~~~
+
 ## 1.14.1
 * Updated to have a fixed version on the `ilib-loctool-webos-json` plugin.
   * All of the plugins must have a fixed version for webOS distribution.
