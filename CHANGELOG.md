@@ -2,7 +2,7 @@
 * Updated fixed loctool and plugins version
 * **Fixes in plugins**
   * webos-json
-    * Update to skip pseudo localizaton data the --nopseudo option is true. If not, it occurs an error when the pseudo locale is not defined on project.
+    * Update to skip the pseudo localization process when the `--nopseudo` option is true. If not, it occurs an error when the pseudo locale is not defined on the project.
 ~~~
   "ilib-loctool-webos-c": "1.7.0",
   "ilib-loctool-webos-cpp": "1.7.0",
