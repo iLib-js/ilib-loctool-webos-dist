@@ -1,6 +1,6 @@
 ## 1.14.1
-* Update to have fixed verion on ilib-loctool-webos-json plugin.
- * All of plugin has to have a fixed versoin for webOS distsribution.
+* Updated to have a fixed version on the `ilib-loctool-webos-json` plugin.
+  * All of the plugins has to have a fixed version for webOS distribution.
 ~~~
   "ilib-loctool-webos-appinfo-json": "1.7.0",
   "ilib-loctool-webos-c": "1.6.0",
