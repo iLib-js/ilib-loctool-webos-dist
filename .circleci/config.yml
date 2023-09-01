@@ -14,6 +14,7 @@ jobs:
           command: |
             rm -rf node_modules package-lock.json
             npm -v
+            node -v
             npm install
             
 workflows:
