@@ -13,6 +13,8 @@ jobs:
           name: Setup
           command: |
             rm -rf node_modules package-lock.json
+            npm -v
+            node -v
             npm install
             
 workflows:
@@ -20,13 +22,7 @@ workflows:
   test-all-node-versions:
     jobs:
       - test:
-          docker_image: circleci/node:10-browsers
+          docker_image: cimg/node:16.20
       - test:
-          docker_image: circleci/node:12-browsers
-      - test:
-          docker_image: circleci/node:13-browsers
-      - test:
-          docker_image: circleci/node:14-browsers
-      - test:
-          docker_image: circleci/node:16-browsers
+          docker_image: cimg/node:18.15
       - test
