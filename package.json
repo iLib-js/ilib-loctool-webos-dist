@@ -31,12 +31,12 @@
         "loctool"
     ],
     "dependencies": {
-        "ilib-loctool-webos-appinfo-json": "1.7.3",
+        "ilib-loctool-webos-appinfo-json": "1.7.4",
         "ilib-loctool-webos-c": "1.7.1",
         "ilib-loctool-webos-cpp": "1.7.1",
-        "ilib-loctool-webos-javascript": "1.10.2",
+        "ilib-loctool-webos-javascript": "1.10.3",
         "ilib-loctool-webos-json": "1.1.2",
-        "ilib-loctool-webos-json-resource": "1.5.5",
+        "ilib-loctool-webos-json-resource": "1.5.6",
         "ilib-loctool-webos-qml": "1.7.1",
         "ilib-loctool-webos-ts-resource": "1.5.1",
         "loctool": "2.23.1"
