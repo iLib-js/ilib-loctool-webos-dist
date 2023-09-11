@@ -1,7 +1,22 @@
+## 1.15.3
+* Updated fixed plugins version
+  * Updated loctool dependency information in all of webOS Plugins to be written both peerDependencies and devDependencies
+~~~
+  "ilib-loctool-webos-appinfo-json": "1.7.5",
+  "ilib-loctool-webos-c": "1.7.2",
+  "ilib-loctool-webos-cpp": "1.7.2",
+  "ilib-loctool-webos-javascript": "1.10.4",
+  "ilib-loctool-webos-json": "1.1.3",
+  "ilib-loctool-webos-json-resource": "1.5.7",
+  "ilib-loctool-webos-qml": "1.7.2",
+  "ilib-loctool-webos-ts-resource": "1.5.2",
+  "loctool": "2.23.1"
+~~~
+
 ## 1.15.2
 * Updated fixed loctool and plugins version
 * **loctool**
-  * changed the zxx-Hans-XX pseudo style name to `debug-han-simplified`.
+  * Changed the zxx-Hans-XX pseudo style name to `debug-han-simplified`.
 * **Fixes in plugins**
   * Update to be included `npm-shrinkwrap.json` in the published files.
 ~~~
