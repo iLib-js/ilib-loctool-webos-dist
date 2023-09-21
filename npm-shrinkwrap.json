@@ -1,12 +1,12 @@
 {
     "name": "ilib-loctool-webos-dist",
-    "version": "1.15.3",
+    "version": "1.15.4",
     "lockfileVersion": 2,
     "requires": true,
     "packages": {
         "": {
             "name": "ilib-loctool-webos-dist",
-            "version": "1.15.3",
+            "version": "1.15.4",
             "license": "Apache-2.0",
             "dependencies": {
                 "ilib-loctool-webos-c": "1.7.3",
