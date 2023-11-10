@@ -1,3 +1,18 @@
+## 1.15.4
+* Removed `ilib-loctool-webos-appinfo-json` in the dependencies.
+* Updated fixed plugins version
+  * Removed `npm-shrinkwrap.json` file in every webOS plugin itself.
+~~~
+  "ilib-loctool-webos-c": "1.7.3",
+  "ilib-loctool-webos-cpp": "1.7.3",
+  "ilib-loctool-webos-javascript": "1.10.5",
+  "ilib-loctool-webos-json": "1.1.4",
+  "ilib-loctool-webos-json-resource": "1.5.8",
+  "ilib-loctool-webos-qml": "1.7.3",
+  "ilib-loctool-webos-ts-resource": "1.5.3",
+  "loctool": "2.23.1"
+~~~
+
 ## 1.15.3
 * Updated fixed plugins version
   * Updated loctool dependency information in all of webOS Plugins to be written both peerDependencies and devDependencies
