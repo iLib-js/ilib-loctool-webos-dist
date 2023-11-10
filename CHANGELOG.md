@@ -1,6 +1,5 @@
 ## 1.15.4
 * Removed `ilib-loctool-webos-appinfo-json` in the dependencies.
-* Added `npm-shrinkwrap.json` in repository
 * Updated fixed plugins version
   * Removed npm-shrinkwrap.json in every plugin.
 ~~~
