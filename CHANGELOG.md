@@ -1,3 +1,24 @@
+## 1.16.0
+* Added the new `ilib-loctool-webos-dart` plug in which is for the Date FileType localization.
+* Updated fixed plugins version
+* Converted all the unit tests from nodeunit to jest.
+* **loctool**
+  * Added a new `getProjectType()` method on the Project class.
+  * Removed the npm-shrinkwrap.json in repository.
+* **Fixes in plugins**
+    * webos-json-resouce
+      * Now it supports javascript, c, cpp, and Dart filetype localization output.    
+~~~
+  "ilib-loctool-webos-c": "1.7.4",
+  "ilib-loctool-webos-cpp": "1.7.4",
+  "ilib-loctool-webos-dart": "1.0.1",
+  "ilib-loctool-webos-javascript": "1.10.6",
+  "ilib-loctool-webos-json": "1.1.5",
+  "ilib-loctool-webos-json-resource": "1.6.1",
+  "ilib-loctool-webos-qml": "1.7.4",
+  "ilib-loctool-webos-ts-resource": "1.5.4",
+  "loctool": "2.24.0"
+~~~        
 ## 1.15.4
 * Removed `ilib-loctool-webos-appinfo-json` in the dependencies.
 * Updated fixed plugins version
