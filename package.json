@@ -1,6 +1,6 @@
 {
     "name": "ilib-loctool-webos-dist",
-    "version": "1.15.4",
+    "version": "1.16.0",
     "description": "Full-featured build environment for webOS localization",
     "main": "index.js",
     "repository": {
@@ -31,13 +31,14 @@
         "loctool"
     ],
     "dependencies": {
-        "ilib-loctool-webos-c": "1.7.3",
-        "ilib-loctool-webos-cpp": "1.7.3",
-        "ilib-loctool-webos-javascript": "1.10.5",
-        "ilib-loctool-webos-json": "1.1.4",
-        "ilib-loctool-webos-json-resource": "1.5.8",
-        "ilib-loctool-webos-qml": "1.7.3",
-        "ilib-loctool-webos-ts-resource": "1.5.3",
-        "loctool": "2.23.1"
+        "ilib-loctool-webos-c": "1.7.4",
+        "ilib-loctool-webos-cpp": "1.7.4",
+        "ilib-loctool-webos-dart": "1.0.1",
+        "ilib-loctool-webos-javascript": "1.10.6",
+        "ilib-loctool-webos-json": "1.1.5",
+        "ilib-loctool-webos-json-resource": "1.6.1",
+        "ilib-loctool-webos-qml": "1.7.4",
+        "ilib-loctool-webos-ts-resource": "1.5.4",
+        "loctool": "2.24.0"
     }
 }
