@@ -7,7 +7,7 @@
   * Removed the npm-shrinkwrap.json in repository.
 * **Fixes in plugins**
     * webos-json-resouce
-      * Now it supports javascript, c, cpp, and Dart filetype localization output.    
+      * Now it supports JavaScript, C, Cpp, and Dart filetype localization output.
 ~~~
   "ilib-loctool-webos-c": "1.7.4",
   "ilib-loctool-webos-cpp": "1.7.4",
@@ -18,7 +18,8 @@
   "ilib-loctool-webos-qml": "1.7.4",
   "ilib-loctool-webos-ts-resource": "1.5.4",
   "loctool": "2.24.0"
-~~~        
+~~~
+
 ## 1.15.4
 * Removed `ilib-loctool-webos-appinfo-json` in the dependencies.
 * Updated fixed plugins version
