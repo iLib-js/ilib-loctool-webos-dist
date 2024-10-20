@@ -1,5 +1,24 @@
+## 1.16.1
+* **Fixes in plugins**
+    * webos-qml
+      * Fixed newline issues where resources of source string containing '\n' were not generated.
+    * webos-dart
+      * Fixed to generate the pseudo localization data correctly.
+      * Fixed a bug where strings were not extracted when there were spaces between } and ).
+~~~
+  "ilib-loctool-webos-c": "1.7.4",
+  "ilib-loctool-webos-cpp": "1.7.4",
+  "ilib-loctool-webos-dart": "1.1.0",
+  "ilib-loctool-webos-javascript": "1.10.6",
+  "ilib-loctool-webos-json": "1.1.5",
+  "ilib-loctool-webos-json-resource": "1.6.1",
+  "ilib-loctool-webos-qml": "1.7.5",
+  "ilib-loctool-webos-ts-resource": "1.5.4",
+  "loctool": "2.24.0"
+~~~
+
 ## 1.16.0
-* Added the new `ilib-loctool-webos-dart` plug in which is for the Dart filetype localization.
+* Added the new `ilib-loctool-webos-dart` plugin which is for the Dart filetype localization.
 * Updated fixed plugins version
 * Converted all the unit tests from nodeunit to jest.
 * **loctool**
