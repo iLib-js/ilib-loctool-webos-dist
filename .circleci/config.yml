@@ -24,5 +24,7 @@ workflows:
       - test:
           docker_image: cimg/node:16.20
       - test:
-          docker_image: cimg/node:18.15
+          docker_image: cimg/node:18.20
+      - test:
+          docker_image: cimg/node:20.18
       - test
