@@ -24,7 +24,7 @@ Plugins are optimized for the webOS platform.
 # Copyright and License Information
 Unless otherwise specified, all ilib-loctool-webos-* source code files and documentation files in this repository are:
 
-Copyright (c) 2020-2024 LG Electronics
+Copyright (c) 2020-2025 LG Electronics
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
