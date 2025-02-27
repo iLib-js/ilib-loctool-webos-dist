@@ -1,3 +1,7 @@
+
+> :warning: **Deprecation Notice** :warning:
+> This repository has been deprecated. Please use the corresponding package from the [ilib-mono-webos](https://github.com/iLib-js/ilib-mono-webos) instead.
+
 # ilib-loctool-webos-dist
 A full-featured build environment for webOS localization.
 Not for general usage. Developers should use other plugins that start with the name  `ilib-loctool-webos-*`
